@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Sinhala Transliteration - 46 Test Cases', () => {
+test.describe('Sinhala Transliteration - 37 Test Cases', () => {
 
   const testCases = [
 
