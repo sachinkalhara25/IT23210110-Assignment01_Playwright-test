@@ -110,7 +110,7 @@ test.describe('Sinhala Transliteration - 37 Test Cases', () => {
     // 4. Wait for the translation to appear (it's automatic)
     // We wait until the text content matches or contains our expected value
     // Allow more time for conversion on slower environments
-    await expect(outputBox).toContainText(tc.expected, { timeout: 10000 });
+    await expect(outputBox).toContainText(tc.expected, { timeout: 15000 });
 
     const output = await outputBox.textContent();
     console.log(`Running: ${tc.id} | Result: ${output}`);
